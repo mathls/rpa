@@ -4,7 +4,7 @@
 block_cipher = None
 
 
-a = Analysis(['rap.py'],
+a = Analysis(['rpa.py'],
              pathex=['C:\\Users\\KOSCOM\\Desktop\\RPA'],
              binaries=[],
              datas=[],
@@ -22,7 +22,7 @@ exe = EXE(pyz,
           a.scripts,
           [],
           exclude_binaries=True,
-          name='rap',
+          name='rpa',
           debug=False,
           bootloader_ignore_signals=False,
           strip=False,
@@ -35,4 +35,4 @@ coll = COLLECT(exe,
                strip=False,
                upx=True,
                upx_exclude=[],
-               name='rap')
+               name='rpa')
